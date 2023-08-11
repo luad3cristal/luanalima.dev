@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+  overflow: hidden;
 }
 
 :root {
@@ -22,15 +24,16 @@ body {
 }
 
 .container {
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+  width: 100%;
+  max-width: 588px;
+  margin: 20px auto 0px;
+  padding: 0 24px;
 }
 
 /* perfil */
 #profile {
-  margin-top: 10px;
   padding: 24px;
+  text-align: center;
 }
 
 #profile img {
@@ -64,7 +67,7 @@ ul {
   flex-direction: column;
   gap: 16px;
 
-  padding: 24px;
+  padding: 24px 0;
 }
 
 ul li a {
@@ -98,7 +101,7 @@ ul li a:hover {
 #social-links {
   display: flex;
   justify-content: center;
-  padding: 24px;
+  padding: 24px 0;
 
   font-size: 24px;
 }
